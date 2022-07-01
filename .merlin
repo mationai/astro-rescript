@@ -1,0 +1,14 @@
+####{BSB GENERATED: NO EDIT
+FLG -ppx '/Users/john/dev/origami/oriapp/node_modules/rescript/darwin/bsc.exe -as-ppx -bs-jsx 3'
+S /Users/john/dev/origami/oriapp/node_modules/rescript/lib/ocaml
+B /Users/john/dev/origami/oriapp/node_modules/rescript/lib/ocaml
+FLG -w +a-4-9-20-40-41-42-50-61-102
+S /Users/john/dev/origami/oriapp/node_modules/@rescript/react/lib/ocaml
+B /Users/john/dev/origami/oriapp/node_modules/@rescript/react/lib/ocaml
+S /Users/john/dev/origami/oriapp/node_modules/rescript-webapi/lib/ocaml
+B /Users/john/dev/origami/oriapp/node_modules/rescript-webapi/lib/ocaml
+S /Users/john/dev/origami/oriapp/node_modules/@ryyppy/rescript-promise/lib/ocaml
+B /Users/john/dev/origami/oriapp/node_modules/@ryyppy/rescript-promise/lib/ocaml
+S src/components
+B lib/bs/src/components
+####BSB GENERATED: NO EDIT}

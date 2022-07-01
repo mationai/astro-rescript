@@ -1,0 +1,23 @@
+{
+  "name": "bsconfig",
+  "sources": {
+    "dir": "src/components",
+    "subdirs": true
+  },
+  "package-specs": {
+    "module": "es6",
+    "in-source": true
+  },
+  "js-post-build": {
+    "cmd": "./postCompile.mjs"
+  },
+  "suffix": ".js",
+  "reason": {
+    "react-jsx": 3
+  },
+  "bs-dependencies": [
+    "@rescript/react",
+    "rescript-webapi",
+    "@ryyppy/rescript-promise"
+  ]
+}

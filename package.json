@@ -1,0 +1,24 @@
+{
+  "name": "astro-rescript",
+  "description": "astro with rescript",
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "dev": "build -w\" \"astro dev\"",
+    "res": "concurrently \"rescript build -w\" \"astro dev\"",
+    "build": "yarn install && astro build",
+    "buildres": "yarn install && rescript build -with-deps",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "@astrojs/react": "^0.2.0",
+    "@rescript/react": "^0.10.3",
+    "@ryyppy/rescript-promise": "^2.1.0",
+    "astro": "^1.0.0-beta.56",
+    "concurrently": "^7.2.2",
+    "patch-package": "^6.4.7",
+    "reason-react": "^0.9.1",
+    "rescript": "^9.1.4",
+    "rescript-webapi": "^0.6.1"
+  }
+}
